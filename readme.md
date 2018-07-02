@@ -2,7 +2,7 @@
 
 ## 前端上传
 
-### 方法一
+##### 方法一
 ```
 // name要跟single里的值匹配 
 <form action="http://localhost:3000/api/upimg" method="POST"  enctype="multipart/form-data">
@@ -10,6 +10,7 @@
     <input type="submit">
 </form>
 ```
+##### 方法二
 html
 ```
     <input type="file" value=""/>
